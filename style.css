@@ -1,0 +1,112 @@
+.logo {
+	position: relative;
+	margin: 195px 0 0 0;
+	text-align: center;
+}
+
+div.search {
+	position: relative;
+	margin: auto;
+	width: 600px;
+	height: 50px;
+	text-align: center;
+	-webkit-appearance: normal;
+}
+
+div.buttons {
+	margin: auto;
+	width: 400px;
+	text-align: center;
+	-webkit-appearance: normal;
+	height: 45px;
+}
+
+* {
+	border: 1px solid #fff;
+	margin: 0;
+	padding: 0;
+}
+
+input.search {
+	height: 80%;
+	width: 95%;
+	margin: 22px auto;
+	font-size: 20px;
+	border: 1px solid #f0f0f0;
+	box-shadow: 2px 2px #d0d0d0;
+}
+
+input.buttons {
+    -webkit-appearance: none;
+	height: 80%;
+	width: 35%;
+	margin: 40px auto;
+	background-color: #f0f0f0;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	width: 300px;
+	text-align: right;
+	border: 0px;
+}
+
+li {
+	display: inline;
+	margin: 0 8px;
+	font-size: 15px;
+	border: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	border: 0px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.top-navbar {
+	float: right;
+	position: relative;
+	top: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+.signin {
+	background-color: #008ae6;
+}
+
+a.signin {
+	padding: 5px 10px;
+	color: white;
+}
+
+.bottom-navbar {
+	background-color: #f0f0f0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+}
+
+.list1 {
+	position: absolute;
+	float: left;
+	text-align: left;
+}
+
+.list2 {
+	position: relative;
+	float: right;
+}
+
+.list1, .list2 {
+	margin-top: 10px;
+}
